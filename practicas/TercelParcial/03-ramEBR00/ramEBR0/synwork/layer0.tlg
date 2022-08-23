@@ -1,0 +1,48 @@
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR00.vhdl":7:7:7:14|Synthesizing work.ramebr00.ramebr0.
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ram_EBR_00.vhd":14:7:14:16|Synthesizing work.ram_ebr_00.structure.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":1699:10:1699:14|Synthesizing work.dp8kc.syn_black_box.
+Post processing for work.dp8kc.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box.
+Post processing for work.vlo.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box.
+Post processing for work.vhi.syn_black_box
+Post processing for work.ram_ebr_00.structure
+Running optimization stage 1 on ram_EBR_00 .......
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":91:6:91:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.ramebr00.ramebr0
+Running optimization stage 1 on ramEBR00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+@N: CL189 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":21:2:21:3|Register bit sdiv(21) is always 0.
+@W: CL260 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":21:2:21:3|Pruning register bit 21 of sdiv(21 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contRead00 .......
+Running optimization stage 2 on ram_EBR_00 .......
+Running optimization stage 2 on ramEBR00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\synwork\layer0.rt.csv
+

@@ -1,0 +1,7 @@
+#Start recording tcl command: 3/9/2022 11:30:27
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/06-adder16libbit00; Project name: adder16bit00
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/06-adder16libbit00/adder16bit00.ldf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 3/9/2022 11:41:38

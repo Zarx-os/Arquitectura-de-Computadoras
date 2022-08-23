@@ -1,0 +1,68 @@
+---------------------------------------------------
+Report for cell fsmmoore00
+   Instance path: fsmmoore00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      63.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	     101.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	         22        100.0
+                                PFUREG	         47        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1        59.1
+                              memrom00	          1        13.9
+                                 fsm00	          1        21.3
+                            contRead00	          1         5.2
+---------------------------------------------------
+Report for cell fsm00
+   Instance path: fsmmoore00/FS03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.42        21.3
+                                  LUT4	      24.00        23.8
+                                PFUREG	         19        40.4
+---------------------------------------------------
+Report for cell memrom00
+   Instance path: fsmmoore00/FS02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.75        13.9
+                                  LUT4	      18.00        17.8
+---------------------------------------------------
+Report for cell contRead00
+   Instance path: fsmmoore00/FS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.25         5.2
+                                  LUT4	       7.00         6.9
+                                PFUREG	          5        10.6
+---------------------------------------------------
+Report for cell osc00
+   Instance path: fsmmoore00/FS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.25        59.1
+                                  LUT4	      51.00        50.5
+                                PFUREG	         23        48.9
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              oscint00	          1         0.0
+                                 div00	          1        59.1
+---------------------------------------------------
+Report for cell div00
+   Instance path: fsmmoore00/FS00/O01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.25        59.1
+                                  LUT4	      51.00        50.5
+                                PFUREG	         23        48.9
+                                RIPPLE	         12        100.0
+---------------------------------------------------
+Report for cell oscint00
+   Instance path: fsmmoore00/FS00/O00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

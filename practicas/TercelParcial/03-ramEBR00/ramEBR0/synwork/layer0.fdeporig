@@ -1,0 +1,67 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Angela\\Desktop\\Respaldo\\OneDrive\\Documentos\\Arquitectura de Computadoras\\07-DiamondProyects\\03-ramEBR00\\ramEBR0\\synwork\\ramEBR00_ramEBR0_comp.srs|-top|ramEBR00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1603984722
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1604355980
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1603984990
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1603984990
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1603984990
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1603984990
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1603984990
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1603984990
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1603984990
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1603984990
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542259932
+#CUR:"C:\\Users\\Angela\\Desktop\\Respaldo\\OneDrive\\Documentos\\Arquitectura de Computadoras\\07-DiamondProyects\\03-ramEBR00\\ramEBR0\\source\\div00.vhdl":1646417022
+#CUR:"C:\\Users\\Angela\\Desktop\\Respaldo\\OneDrive\\Documentos\\Arquitectura de Computadoras\\07-DiamondProyects\\03-ramEBR00\\ramEBR0\\source\\packageaosc00.vhdl":1646415738
+#CUR:"C:\\Users\\Angela\\Desktop\\Respaldo\\OneDrive\\Documentos\\Arquitectura de Computadoras\\07-DiamondProyects\\03-ramEBR00\\ramEBR0\\source\\oscint00.vhdl":1646413011
+#CUR:"C:\\Users\\Angela\\Desktop\\Respaldo\\OneDrive\\Documentos\\Arquitectura de Computadoras\\07-DiamondProyects\\03-ramEBR00\\contRead00.vhdl":1653411986
+#CUR:"C:\\Users\\Angela\\Desktop\\Respaldo\\OneDrive\\Documentos\\Arquitectura de Computadoras\\07-DiamondProyects\\03-ramEBR00\\packageramEBR00.vhdl":1653412527
+#CUR:"C:\\Users\\Angela\\Desktop\\Respaldo\\OneDrive\\Documentos\\Arquitectura de Computadoras\\07-DiamondProyects\\03-ramEBR00\\ramEBR0\\source\\osc00.vhdl":1646845116
+#CUR:"C:\\Users\\Angela\\Desktop\\Respaldo\\OneDrive\\Documentos\\Arquitectura de Computadoras\\07-DiamondProyects\\03-ramEBR00\\ram_EBR_00.vhd":1653408743
+#CUR:"C:\\Users\\Angela\\Desktop\\Respaldo\\OneDrive\\Documentos\\Arquitectura de Computadoras\\07-DiamondProyects\\03-ramEBR00\\ramEBR00.vhdl":1653600922
+0 "C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl" vhdl
+2 "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\packageaosc00.vhdl" vhdl
+3 "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\oscint00.vhdl" vhdl
+4 "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\contRead00.vhdl" vhdl
+5 "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\packageramEBR00.vhdl" vhdl
+6 "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\osc00.vhdl" vhdl
+7 "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ram_EBR_00.vhd" vhdl
+8 "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 3 1 2 
+7 0 
+8 6 4 7 5 
+
+# Dependency Lists (Users Of)
+0 7 
+1 6 
+2 6 
+3 6 
+4 8 
+5 8 
+6 8 
+7 8 
+8 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work oscint00 oscint0 3
+module work oscint00 3
+arch work contread00 contread0 4
+module work contread00 4
+arch work osc00 osc0 6
+module work osc00 6
+config work structure_con 7
+arch work ram_ebr_00 structure 7
+module work ram_ebr_00 7
+arch work ramebr00 ramebr0 8
+module work ramebr00 8

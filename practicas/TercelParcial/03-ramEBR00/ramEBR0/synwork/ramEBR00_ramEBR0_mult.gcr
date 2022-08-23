@@ -1,0 +1,15 @@
+i RAEBR00.D01.oscout_i
+m 0 0
+u 2 7
+n ckid0_0 {t:RAEBR02.ram_EBR_00_0_0_0.CLKA} Derived clock on input (not legal for GCC)
+p {t:RAEBR00.D01.oscout.Q[0]}{t:RAEBR00.D01.oscout_derived_clock.I[0]}{t:RAEBR00.D01.oscout_derived_clock.OUT[0]}{p:RAEBR00.D01.oscout}{t:RAEBR00.D01.oscout}{p:RAEBR00.oscout0}{t:RAEBR00.oscout0}{t:RAEBR02.Clock}{p:RAEBR02.Clock}{t:RAEBR02.ram_EBR_00_0_0_0.CLKA}
+e ckid0_0 {t:RAEBR02.ram_EBR_00_0_0_0.CLKA} DP8KC
+d ckid0_1 {t:RAEBR00.D01.oscout.Q[0]} dffe Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i RAEBR00.D00.osc_int_i
+m 0 0
+u 2 22
+p {t:RAEBR00.D00.OSCInst0.OSC}{t:RAEBR00.D00.osc_int_inferred_clock.I[0]}{t:RAEBR00.D00.osc_int_inferred_clock.OUT[0]}{p:RAEBR00.D00.osc_int}{t:RAEBR00.D00.osc_int}{t:RAEBR00.D01.clkdiv}{p:RAEBR00.D01.clkdiv}{t:RAEBR00.D01.sdiv[20:0].C}
+e ckid0_2 {t:RAEBR00.D01.sdiv[20:0].C} sdffr
+c ckid0_2 {t:RAEBR00.D00.OSCInst0.OSC} OSCH Unsupported/too complex instance on clock path
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

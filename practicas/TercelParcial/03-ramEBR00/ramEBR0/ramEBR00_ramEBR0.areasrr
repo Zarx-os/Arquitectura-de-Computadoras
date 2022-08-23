@@ -1,0 +1,89 @@
+----------------------------------------------------------------------
+Report for cell ramEBR00.ramebr0
+
+Register bits: 28 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       31
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       15       100.0
+                              DP8KC        1       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       27       100.0
+                                GSR        1       100.0
+                                 IB       16       100.0
+                                 OB       15       100.0
+                           ORCALUT4       32       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                                VHI        4       100.0
+                                VLO        5       100.0
+SUB MODULES 
+                         contRead00        1       100.0
+                              div00        1       100.0
+                              osc00        1       100.0
+                           oscint00        1       100.0
+                         ram_EBR_00        1       100.0
+                            
+                         TOTAL           124           
+----------------------------------------------------------------------
+Report for cell ram_EBR_00.netlist
+     Instance path:  RAEBR02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              DP8KC        1       100.0
+                                VHI        1        25.0
+                                VLO        1        20.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell contRead00.netlist
+     Instance path:  RAEBR01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        4        26.7
+                            FD1S3IX        6        22.2
+                           ORCALUT4        2         6.3
+                                VHI        1        25.0
+                                VLO        1        20.0
+                            
+                         TOTAL            14           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  RAEBR00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        73.3
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21        77.8
+                           ORCALUT4       30        93.8
+                               OSCH        1       100.0
+                                VHI        1        25.0
+                                VLO        2        40.0
+SUB MODULES 
+                              div00        1       100.0
+                           oscint00        1       100.0
+                            
+                         TOTAL            69           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  RAEBR00.D01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        73.3
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21        77.8
+                           ORCALUT4       30        93.8
+                                VHI        1        25.0
+                                VLO        1        20.0
+                            
+                         TOTAL            65           
+----------------------------------------------------------------------
+Report for cell oscint00.netlist
+     Instance path:  RAEBR00.D00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1        20.0
+                            
+                         TOTAL             2           

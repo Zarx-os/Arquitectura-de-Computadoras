@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  adder4bit00  -multisrs  C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\synwork\adder16bit00_adder16bit0_comp.srs  -osyn  C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\synwork\adder16bit00_adder16bit0_mult.srs  -log  C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\synlog\adder16bit00_adder16bit0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top adder4bit00 -multisrs ..\synwork\adder16bit00_adder16bit0_comp.srs -osyn ..\synwork\adder16bit00_adder16bit0_mult.srs -log ..\synlog\adder16bit00_adder16bit0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\adder16bit00_adder16bit0_comp.srs|io:i|time:1646102285|size:6423|exec:0|csum:D2520CB6FCA852C678EA35DA04E9DAC0
+file:..\synwork\adder16bit00_adder16bit0_mult.srs|io:o|time:1646102286|size:4232|exec:0|csum:
+file:..\synlog\adder16bit00_adder16bit0_multi_srs_gen.srr|io:o|time:1646102286|size:1047|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1628608958|size:8899584|exec:1|csum:163057E8B8449A642661642A20A2247D

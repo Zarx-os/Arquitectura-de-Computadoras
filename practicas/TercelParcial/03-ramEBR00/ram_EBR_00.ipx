@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="ram_EBR_00" module="ram_EBR_00" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2022 06 08 11:35:05.893" version="7.5" type="Module" synthesis="synplify" source_format="VHDL">
+  <Package>
+		<File name="" type="" modified="2022 06 08 11:35:05.657"/>
+		<File name="c:/users/mau/documents/arqui/practicas/tercelparcial/03-ramebr00/bindata00.mem.txt" type="mem" modified="2022 05 24 11:11:47.672"/>
+		<File name="ram_EBR_00.lpc" type="lpc" modified="2022 06 08 11:34:55.667"/>
+		<File name="ram_EBR_00.vhd" type="top_level_vhdl" modified="2022 06 08 11:34:55.751"/>
+		<File name="ram_EBR_00_tmpl.vhd" type="template_vhdl" modified="2022 06 08 11:34:55.751"/>
+		<File name="tb_ram_EBR_00_tmpl.vhd" type="testbench_vhdl" modified="2022 06 08 11:34:55.765"/>
+  </Package>
+</DiamondModule>

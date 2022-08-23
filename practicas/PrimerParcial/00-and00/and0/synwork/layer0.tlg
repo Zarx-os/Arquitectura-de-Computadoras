@@ -1,0 +1,11 @@
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\00-and00\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+Running optimization stage 1 on and00 .......
+Finished optimization stage 1 on and00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on and00 .......
+Finished optimization stage 2 on and00 (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Mau\Documents\Arqui\practicas\00-and00\and0\synwork\layer0.rt.csv
+

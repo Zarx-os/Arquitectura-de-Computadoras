@@ -1,0 +1,25 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL00.vhdl":7:7:7:15|Top entity is set to shiftRL00.
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL00.vhdl":7:7:7:15|Synthesizing work.shiftrl00.shiftrl0.
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":8:7:8:13|Synthesizing work.shiftrl.shift.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":80:5:80:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":97:5:97:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":114:5:114:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":131:5:131:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":137:3:137:10|Removing redundant assignment.
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":26:5:26:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":34:5:34:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":42:5:42:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":50:5:50:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":58:5:58:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":66:5:66:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":74:5:74:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":82:5:82:10|Removing redundant assignment.
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":19:1:19:2|Register bit sdiv(21) is always 0.
+@N|Running in 64-bit mode
+

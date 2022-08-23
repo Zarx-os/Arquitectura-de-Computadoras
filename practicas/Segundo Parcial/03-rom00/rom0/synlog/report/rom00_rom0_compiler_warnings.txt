@@ -1,0 +1,3 @@
+@W: CD326 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom0\source\oscint00.vhdl":24:0:24:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CL260 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\contRead.vhdl":21:2:21:3|Pruning register bit 5 of outcr(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

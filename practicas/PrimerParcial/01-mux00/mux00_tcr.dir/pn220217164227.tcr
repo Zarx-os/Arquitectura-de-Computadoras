@@ -1,0 +1,25 @@
+#Start recording tcl command: 2/17/2022 15:53:10
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/01-mux00; Project name: mux00
+prj_project new -name "mux00" -impl "mux0" -dev LCMXO2-4000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/01-mux00/mux00.vhdl"
+prj_run Export -impl mux0 -task Jedecgen
+prj_run Export -impl mux0 -task Jedecgen
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/01-mux00/mux0/mux0.xcf"
+prj_src add -exclude "C:/Users/Mau/Documents/Arqui/practicas/01-mux00/mux0/mux0.xcf"
+prj_src enable "C:/Users/Mau/Documents/Arqui/practicas/01-mux00/mux0/mux0.xcf"
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_project close
+prj_run Synthesis -impl mux0 -task Synplify_Synthesis
+prj_run Map -impl mux0
+prj_run Translate -impl mux0
+prj_run PAR -impl mux0 -task PARTrace
+prj_dev set -part LCMXO2-7000HE-5TG144C
+prj_run Export -impl mux0 -task Jedecgen
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/01-mux00/mux0/mux0.xcf"
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 2/17/2022 16:42:27

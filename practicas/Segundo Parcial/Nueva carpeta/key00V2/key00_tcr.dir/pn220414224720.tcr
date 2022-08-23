@@ -1,0 +1,9 @@
+#Start recording tcl command: 4/14/2022 22:37:58
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/key00; Project name: key00
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/key00/key00.ldf"
+prj_run Export -impl key0 -task Jedecgen
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/key00/key0/key0.xcf"
+pgr_program run
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/key00/key0/key0.xcf"
+prj_project close
+#Stop recording: 4/14/2022 22:47:20

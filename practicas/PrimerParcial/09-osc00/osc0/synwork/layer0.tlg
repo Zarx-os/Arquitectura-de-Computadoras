@@ -1,0 +1,33 @@
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\div00.vhdl":29:6:29:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\div00.vhdl":38:6:38:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\div00.vhdl":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\div00.vhdl":54:6:54:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\div00.vhdl":62:6:62:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\div00.vhdl":70:6:70:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\div00.vhdl":78:6:78:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+Finished optimization stage 1 on div00 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 94MB)
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\09-osc00\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Finished optimization stage 1 on oscint00 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 94MB)
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Finished optimization stage 1 on osc00 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 94MB)
+Running optimization stage 2 on oscint00 .......
+Finished optimization stage 2 on oscint00 (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 94MB)
+Running optimization stage 2 on div00 .......
+Finished optimization stage 2 on div00 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 94MB)
+Running optimization stage 2 on osc00 .......
+Finished optimization stage 2 on osc00 (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 94MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Mau\Documents\Arqui\practicas\09-osc00\osc0\synwork\layer0.rt.csv
+

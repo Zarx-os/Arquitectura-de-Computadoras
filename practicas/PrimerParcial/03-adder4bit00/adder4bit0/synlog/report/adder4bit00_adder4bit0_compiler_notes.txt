@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\Mau\Documents\Arqui\practicas\03-adder4bit00\adder4bit00.vhdl":7:7:7:17|Top entity is set to adder4bit00.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\Mau\Documents\Arqui\practicas\03-adder4bit00\adder4bit00.vhdl'.
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\03-adder4bit00\adder4bit00.vhdl":7:7:7:17|Synthesizing work.adder4bit00.adder4bit0.
+@N|Running in 64-bit mode
+

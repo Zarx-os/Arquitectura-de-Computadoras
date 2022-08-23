@@ -1,0 +1,47 @@
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\adder4bit00.vhdl":7:7:7:17|Synthesizing work.adder4bit00.adder4bit0.
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+Running optimization stage 1 on xnor00 .......
+Finished optimization stage 1 on xnor00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+Running optimization stage 1 on xor00 .......
+Finished optimization stage 1 on xor00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+Running optimization stage 1 on and00 .......
+Finished optimization stage 1 on and00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\or00.vhdl":7:7:7:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+Running optimization stage 1 on or00 .......
+Finished optimization stage 1 on or00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+Post processing for work.ha00.ha0
+Running optimization stage 1 on ha00 .......
+Finished optimization stage 1 on ha00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Post processing for work.fa00.fa0
+Running optimization stage 1 on fa00 .......
+Finished optimization stage 1 on fa00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Post processing for work.adder4bit00.adder4bit0
+Running optimization stage 1 on adder4bit00 .......
+Finished optimization stage 1 on adder4bit00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on ha00 .......
+Finished optimization stage 2 on ha00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on or00 .......
+Finished optimization stage 2 on or00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on fa00 .......
+Finished optimization stage 2 on fa00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on and00 .......
+Finished optimization stage 2 on and00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on xor00 .......
+Finished optimization stage 2 on xor00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on xnor00 .......
+Finished optimization stage 2 on xnor00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+Running optimization stage 2 on adder4bit00 .......
+Finished optimization stage 2 on adder4bit00 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\adder4bit0\synwork\layer0.rt.csv
+

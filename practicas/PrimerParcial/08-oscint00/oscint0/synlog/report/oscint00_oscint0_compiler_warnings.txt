@@ -1,0 +1,4 @@
+@W: CD645 :"C:\Users\Mau\Documents\Arqui\practicas\08-oscint00\oscint00.vhdl":3:8:3:14|Ignoring undefined library lattice
+@W: CD642 :"C:\Users\Mau\Documents\Arqui\practicas\08-oscint00\oscint00.vhdl":4:15:4:15|Ignoring use clause - library lattice not found ...
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

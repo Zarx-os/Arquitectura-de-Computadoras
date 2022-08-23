@@ -1,0 +1,21 @@
+#Start recording tcl command: 2/28/2022 13:53:37
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00/adder4bit00.ldf"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00/adder4bit00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00/packageadder4bit00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00/xnor00.vhdl"
+prj_run Export -impl adder4bit0 -task Jedecgen
+prj_run Export -impl adder4bit0 -task Jedecgen
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00/adder4bit0/adder4bit0.xcf"
+prj_src add -exclude "C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00/adder4bit0/adder4bit0.xcf"
+prj_src enable "C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_program run
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_project close
+prj_run Export -impl adder4bit0 -task Jedecgen
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/02-adder4bit00/adder4bit0/adder4bit0.xcf"
+pgr_program run
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 2/28/2022 17:54:52

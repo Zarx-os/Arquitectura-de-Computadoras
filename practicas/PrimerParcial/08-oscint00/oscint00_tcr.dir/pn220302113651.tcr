@@ -1,0 +1,20 @@
+#Start recording tcl command: 3/2/2022 11:01:41
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/08-oscint00; Project name: oscint00
+C:/Users/Mau/Documents/Arqui/practicas/07-mult8bit00
+mult8bit00
+#Start recording tcl command: 3/2/2022 11:36:50
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/07-mult8bit00; Project name: mult8bit00
+prj_project new -name "oscint00" -impl "oscint0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/08-oscint00/oscint00.vhdl"
+prj_run Export -impl oscint0 -task Jedecgen
+prj_run Export -impl oscint0 -task Jedecgen
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/08-oscint00/oscint0/oscint0.xcf"
+prj_src add -exclude "C:/Users/Mau/Documents/Arqui/practicas/08-oscint00/oscint0/oscint0.xcf"
+prj_src enable "C:/Users/Mau/Documents/Arqui/practicas/08-oscint00/oscint0/oscint0.xcf"
+pgr_program run
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/08-oscint00/oscint0/oscint0.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/07-mult8bit00/mult8bit00.ldf"
+#Stop recording: 3/2/2022 11:36:51

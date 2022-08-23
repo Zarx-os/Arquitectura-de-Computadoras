@@ -1,0 +1,58 @@
+---------------------------------------------------
+Report for cell ramEBR00
+   Instance path: ramEBR00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.00        100.0
+                                  LUT4	      32.00        100.0
+                                 IOBUF	         31        100.0
+                                PFUREG	         28        100.0
+                                RIPPLE	         15        100.0
+                                   EBR	          1        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            ram_EBR_00	          1         0.0
+                                 osc00	          1        83.9
+                            contRead00	          1        16.1
+---------------------------------------------------
+Report for cell ram_EBR_00
+   Instance path: ramEBR00/RAEBR02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        100.0
+---------------------------------------------------
+Report for cell contRead00
+   Instance path: ramEBR00/RAEBR01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00        16.1
+                                  LUT4	       2.00         6.3
+                                PFUREG	          6        21.4
+                                RIPPLE	          4        26.7
+---------------------------------------------------
+Report for cell osc00
+   Instance path: ramEBR00/RAEBR00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00        83.9
+                                  LUT4	      30.00        93.8
+                                PFUREG	         22        78.6
+                                RIPPLE	         11        73.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              oscint00	          1         0.0
+                                 div00	          1        83.9
+---------------------------------------------------
+Report for cell div00
+   Instance path: ramEBR00/RAEBR00/D01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      26.00        83.9
+                                  LUT4	      30.00        93.8
+                                PFUREG	         22        78.6
+                                RIPPLE	         11        73.3
+---------------------------------------------------
+Report for cell oscint00
+   Instance path: ramEBR00/RAEBR00/D00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

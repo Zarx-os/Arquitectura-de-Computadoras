@@ -1,0 +1,3 @@
+@W: CD645 :"C:\Users\Mau\Documents\Arqui\practicas\03-adder4bit00\adder4bit00.vhdl":4:8:4:14|Ignoring undefined library lattice
+@W: CD642 :"C:\Users\Mau\Documents\Arqui\practicas\03-adder4bit00\adder4bit00.vhdl":5:15:5:15|Ignoring use clause - library lattice not found ...
+

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  oscint00  -multisrs  C:\Users\Mau\Documents\Arqui\practicas\08-oscint00\oscint0\synwork\oscint00_oscint0_comp.srs  -osyn  C:\Users\Mau\Documents\Arqui\practicas\08-oscint00\oscint0\synwork\oscint00_oscint0_mult.srs  -log  C:\Users\Mau\Documents\Arqui\practicas\08-oscint00\oscint0\synlog\oscint00_oscint0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top oscint00 -multisrs ..\synwork\oscint00_oscint0_comp.srs -osyn ..\synwork\oscint00_oscint0_mult.srs -log ..\synlog\oscint00_oscint0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\oscint00_oscint0_comp.srs|io:i|time:1646241932|size:2296|exec:0|csum:5024A9C47F6A11D77FB5C98686027824
+file:..\synwork\oscint00_oscint0_mult.srs|io:o|time:1646241933|size:2058|exec:0|csum:
+file:..\synlog\oscint00_oscint0_multi_srs_gen.srr|io:o|time:1646241933|size:1043|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1628608958|size:8899584|exec:1|csum:163057E8B8449A642661642A20A2247D

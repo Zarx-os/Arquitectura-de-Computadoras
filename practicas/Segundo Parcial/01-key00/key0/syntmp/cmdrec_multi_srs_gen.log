@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  key00  -multisrs  "C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\01-key00\key0\synwork\key00_key0_comp.srs"  -osyn  "C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\01-key00\key0\synwork\key00_key0_mult.srs"  -log  "C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\01-key00\key0\synlog\key00_key0_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top key00 -multisrs "C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\01-key00\key0\synwork\key00_key0_comp.srs" -osyn "C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\01-key00\key0\synwork\key00_key0_mult.srs" -log "C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\01-key00\key0\synlog\key00_key0_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\key00_key0_comp.srs|io:i|time:1652459784|size:9873|exec:0|csum:84594E3A1E98CA039BFB62EC2D491A7A
+file:..\synwork\key00_key0_mult.srs|io:o|time:1652459785|size:2940|exec:0|csum:
+file:..\synlog\key00_key0_multi_srs_gen.srr|io:o|time:1652459785|size:1157|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

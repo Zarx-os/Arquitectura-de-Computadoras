@@ -1,0 +1,7 @@
+#Start recording tcl command: 6/15/2022 11:43:47
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/TercelParcial/05-pipeline00; Project name: pipeline00
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/TercelParcial/05-pipeline00/pipeline00.ldf"
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/TercelParcial/05-pipeline00/pipeline0/pipeline0.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 6/15/2022 11:51:16

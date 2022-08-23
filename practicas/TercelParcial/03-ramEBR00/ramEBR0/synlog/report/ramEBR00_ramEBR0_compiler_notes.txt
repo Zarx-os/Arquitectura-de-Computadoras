@@ -1,0 +1,24 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR00.vhdl":7:7:7:14|Top entity is set to ramEBR00.
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR00.vhdl":7:7:7:14|Synthesizing work.ramebr00.ramebr0.
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ram_EBR_00.vhd":14:7:14:16|Synthesizing work.ram_ebr_00.structure.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":1699:10:1699:14|Synthesizing work.dp8kc.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box.
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":91:6:91:11|Removing redundant assignment.
+@N: CD630 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\source\div00.vhdl":21:2:21:3|Register bit sdiv(21) is always 0.
+@N|Running in 64-bit mode
+

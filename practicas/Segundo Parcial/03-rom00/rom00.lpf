@@ -1,0 +1,28 @@
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+LOCATE COMP "clk0" SITE "61" ;
+LOCATE COMP "en0" SITE "1" ;
+LOCATE COMP "cdiv0[4]" SITE "14" ;
+LOCATE COMP "cdiv0[3]" SITE "13" ;
+LOCATE COMP "cdiv0[2]" SITE "12" ;
+LOCATE COMP "cdiv0[1]" SITE "11" ;
+LOCATE COMP "cdiv0[0]" SITE "10" ;
+LOCATE COMP "outro0[6]" SITE "77" ;
+LOCATE COMP "outro0[5]" SITE "78" ;
+LOCATE COMP "outro0[4]" SITE "81" ;
+LOCATE COMP "outro0[3]" SITE "82" ;
+LOCATE COMP "outro0[2]" SITE "83" ;
+LOCATE COMP "outro0[1]" SITE "84" ;
+LOCATE COMP "outro0[0]" SITE "85" ;
+
+LOCATE COMP "outcr0[5]" SITE "95" ;
+LOCATE COMP "outcr0[4]" SITE "96" ;
+LOCATE COMP "outcr0[3]" SITE "94" ;
+LOCATE COMP "outcr0[2]" SITE "93" ;
+LOCATE COMP "outcr0[1]" SITE "92" ;
+LOCATE COMP "outcr0[0]" SITE "91" ;
+
+LOCATE COMP "outtransist0[3]" SITE "76" ;
+LOCATE COMP "outtransist0[2]" SITE "75" ;
+LOCATE COMP "outtransist0[1]" SITE "74" ;
+LOCATE COMP "outtransist0[0]" SITE "73" ;

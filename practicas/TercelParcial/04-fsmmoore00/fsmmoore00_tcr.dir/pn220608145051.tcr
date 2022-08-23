@@ -1,0 +1,31 @@
+#Start recording tcl command: 6/8/2022 14:17:30
+#Project Location: C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00; Project name: fsmmoore00
+prj_project open "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore00.ldf"
+prj_run Export -impl fsmmoore0 -task Jedecgen
+pgr_project open "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/fsmmoore0.xcf"
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/fsmmoore0.xcf"
+prj_run Export -impl fsmmoore0 -task Jedecgen
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/fsmmoore0.xcf"
+prj_run Export -impl fsmmoore0 -task Jedecgen
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/fsmmoore0.xcf"
+prj_run Export -impl fsmmoore0 -task Jedecgen
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/fsmmoore0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 6/8/2022 14:50:51

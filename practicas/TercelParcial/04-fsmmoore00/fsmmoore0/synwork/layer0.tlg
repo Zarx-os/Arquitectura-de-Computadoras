@@ -1,0 +1,52 @@
+@N: CD630 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore00.vhdl":7:7:7:16|Synthesizing work.fsmmoore00.fsmmoore0.
+@N: CD630 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsm00.vhdl":6:7:6:11|Synthesizing work.fsm00.fsm0.
+@N: CD231 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsm00.vhdl":15:13:15:14|Using onehot encoding for type estados. For example, enumeration a is mapped to "10000000".
+@W: CG296 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsm00.vhdl":38:7:38:13|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsm00.vhdl":44:10:44:14|Referenced variable e_act is not in sensitivity list.
+@W: CG290 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsm00.vhdl":40:9:40:13|Referenced variable enfsm is not in sensitivity list.
+Post processing for work.fsm00.fsm0
+Running optimization stage 1 on fsm00 .......
+@W: CL117 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsm00.vhdl":40:4:40:7|Latch generated from process for signal outfsm(2 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsm00.vhdl":40:4:40:7|Latch generated from process for signal E_sig(0 to 7); possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\memrom00.vhdl":8:7:8:14|Synthesizing work.memrom00.memrom0.
+Post processing for work.memrom00.memrom0
+Running optimization stage 1 on memrom00 .......
+@N: CD630 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\contRead00.vhdl":8:7:8:16|Synthesizing work.contread00.contread0.
+Post processing for work.contread00.contread0
+Running optimization stage 1 on contRead00 .......
+@N: CD630 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\div00.vhdl":27:6:27:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\div00.vhdl":36:6:36:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\div00.vhdl":54:6:54:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\div00.vhdl":63:6:63:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\div00.vhdl":72:6:72:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\div00.vhdl":81:6:81:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\div00.vhdl":90:6:90:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\source\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.fsmmoore00.fsmmoore0
+Running optimization stage 1 on fsmmoore00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contRead00 .......
+@N: CL189 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\contRead00.vhdl":19:4:19:5|Register bit outcontcr(5) is always 0.
+@W: CL260 :"C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\contRead00.vhdl":19:4:19:5|Pruning register bit 5 of outcontcr(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on memrom00 .......
+Running optimization stage 2 on fsm00 .......
+Running optimization stage 2 on fsmmoore00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Yonathan macu\SkyDrive\Fotos\Arquitectura de Computadoras\Practicas\TercerParcial\fsmmoore00\fsmmoore0\synwork\layer0.rt.csv
+

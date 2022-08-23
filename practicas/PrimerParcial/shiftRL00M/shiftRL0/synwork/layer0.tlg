@@ -1,0 +1,43 @@
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL00.vhdl":7:7:7:15|Synthesizing work.shiftrl00.shiftrl0.
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":8:7:8:13|Synthesizing work.shiftrl.shift.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":80:5:80:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":97:5:97:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":114:5:114:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":131:5:131:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL.vhdl":137:3:137:10|Removing redundant assignment.
+Post processing for work.shiftrl.shift
+Running optimization stage 1 on shiftRL .......
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":26:5:26:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":34:5:34:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":42:5:42:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":50:5:50:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":58:5:58:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":66:5:66:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":74:5:74:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":82:5:82:10|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD276 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.shiftrl00.shiftrl0
+Running optimization stage 1 on shiftRL00 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+@N: CL189 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":19:1:19:2|Register bit sdiv(21) is always 0.
+@W: CL260 :"C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\source\div00.vhdl":19:1:19:2|Pruning register bit 21 of sdiv(21 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on shiftRL .......
+Running optimization stage 2 on shiftRL00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\synwork\layer0.rt.csv
+

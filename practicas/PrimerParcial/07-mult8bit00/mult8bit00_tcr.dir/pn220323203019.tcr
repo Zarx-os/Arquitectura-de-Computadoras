@@ -1,0 +1,7 @@
+#Start recording tcl command: 3/23/2022 19:51:40
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/07-mult8bit00; Project name: mult8bit00
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/07-mult8bit00/mult8bit00.ldf"
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/07-mult8bit00/mult8bit0/mult8bit0.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 3/23/2022 20:30:19

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\packagemult8bit00.vhdl&quot;:3:8:3:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\packagemult8bit00.vhdl</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\packagemult8bit00.vhdl&quot;:4:15:4:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\packagemult8bit00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\and00.vhdl&quot;:3:8:3:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\and00.vhdl</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\and00.vhdl&quot;:4:15:4:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\and00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\or00.vhdl&quot;:3:8:3:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\or00.vhdl</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\or00.vhdl&quot;:4:15:4:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\or00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\packagefa00.vhdl&quot;:3:8:3:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\packagefa00.vhdl</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\packagefa00.vhdl&quot;:4:15:4:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\packagefa00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\packageha00.vhdl&quot;:3:8:3:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\packageha00.vhdl</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\packageha00.vhdl&quot;:4:15:4:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\packageha00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\xor00.vhdl&quot;:3:8:3:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\xor00.vhdl</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\xor00.vhdl&quot;:4:15:4:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\xor00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\ha00.vhdl&quot;:3:8:3:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\ha00.vhdl</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\ha00.vhdl&quot;:4:15:4:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\ha00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\fa00.vhdl&quot;:3:8:3:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\fa00.vhdl</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\fa00.vhdl&quot;:4:15:4:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit0\source\fa00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit00.vhdl&quot;:3:8:3:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit00.vhdl&quot;:4:15:4:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit00.vhdl&quot;:16:43:16:46|Signal ss06 is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>Signal ss06 is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD796 :&quot;C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit00.vhdl&quot;:17:73:17:76|Bit 7 of signal sc06 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit.</Dynamic>
+            <Navigation>CD796</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\07-mult8bit00\mult8bit00.vhdl</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>73</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>76</Navigation>
+            <Navigation>Bit 7 of signal sc06 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. </Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

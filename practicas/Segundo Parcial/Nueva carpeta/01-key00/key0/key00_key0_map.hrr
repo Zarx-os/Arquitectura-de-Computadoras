@@ -1,0 +1,57 @@
+---------------------------------------------------
+Report for cell key00
+   Instance path: key00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      53.00        100.0
+                                  LUT4	      80.00        100.0
+                                 IOBUF	         27        100.0
+                                PFUREG	         36        100.0
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1        64.2
+                            contring00	          1         3.1
+                               coder00	          1        31.1
+---------------------------------------------------
+Report for cell coder00
+   Instance path: key00/K02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.50        31.1
+                                  LUT4	      34.00        42.5
+                                PFUREG	          8        22.2
+---------------------------------------------------
+Report for cell contring00
+   Instance path: key00/K01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.67         3.1
+                                PFUREG	          5        13.9
+---------------------------------------------------
+Report for cell osc00
+   Instance path: key00/K00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.00        64.2
+                                  LUT4	      44.00        55.0
+                                PFUREG	         23        63.9
+                                RIPPLE	         12        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              oscint00	          1         0.0
+                                 div00	          1        64.2
+---------------------------------------------------
+Report for cell div00
+   Instance path: key00/K00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.00        64.2
+                                  LUT4	      44.00        55.0
+                                PFUREG	         23        63.9
+                                RIPPLE	         12        100.0
+---------------------------------------------------
+Report for cell oscint00
+   Instance path: key00/K00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

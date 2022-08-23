@@ -1,0 +1,20 @@
+#Start recording tcl command: 2/17/2022 15:39:26
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/00-and00; Project name: and00
+prj_project new -name "and00" -impl "and0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/00-and00/and00.vhdl"
+prj_run Export -impl and0 -task Jedecgen
+prj_run Export -impl and0 -task Jedecgen
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/00-and00/and0/and0.xcf"
+prj_src add -exclude "C:/Users/Mau/Documents/Arqui/practicas/00-and00/and0/and0.xcf"
+prj_src enable "C:/Users/Mau/Documents/Arqui/practicas/00-and00/and0/and0.xcf"
+pgr_program set -cable 
+pgr_project close
+prj_run Export -impl and0 -task Jedecgen
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/00-and00/and0/and0.xcf"
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_project close
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/00-and00/and0/and0.xcf"
+pgr_project close
+#Stop recording: 2/17/2022 15:45:11

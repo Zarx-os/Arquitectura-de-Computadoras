@@ -1,0 +1,64 @@
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\key02.vhdl":7:7:7:11|Synthesizing work.key02.key2.
+@W: CD277 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\packagekey0200.vhdl":30:2:30:9|Port direction mismatch between component and entity
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder7seg00.vhdl":6:7:6:17|Synthesizing work.coder7seg00.coder7seg0.
+Post processing for work.coder7seg00.coder7seg0
+Running optimization stage 1 on coder7seg00 .......
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\contring7seg00.vhdl":6:7:6:20|Synthesizing work.contring7seg00.contring7seg0.
+Post processing for work.contring7seg00.contring7seg0
+Running optimization stage 1 on contring7seg00 .......
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl":7:7:7:12|Synthesizing work.lect00.lect0.
+@W: CG296 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl":22:7:22:13|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl":25:7:25:17|Referenced variable scountrollc is not in sensitivity list.
+Post processing for work.lect00.lect0
+Running optimization stage 1 on lect00 .......
+@W: CL113 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl":25:2:25:5|Feedback mux created for signal out32lc[31:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl":9:7:9:13|Synthesizing work.coder00.coder0.
+@W: CG296 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl":22:9:22:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl":29:7:29:9|Referenced variable enc is not in sensitivity list.
+Post processing for work.coder00.coder0
+Running optimization stage 1 on coder00 .......
+@A: CL282 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl":29:2:29:5|Feedback mux created for signal var4. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl":29:2:29:5|Feedback mux created for signal var3. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl":29:2:29:5|Feedback mux created for signal var2. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl":29:2:29:5|Feedback mux created for signal var1. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl":29:2:29:5|Feedback mux created for signal var0. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\contring00.vhdl":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+Running optimization stage 1 on contring00 .......
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\div00.vhdl":29:6:29:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\div00.vhdl":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\div00.vhdl":45:6:45:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\div00.vhdl":53:6:53:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\div00.vhdl":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\div00.vhdl":69:6:69:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\div00.vhdl":77:6:77:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\div00.vhdl":85:6:85:11|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@W: CD326 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\oscint00.vhdl":24:0:24:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.oscint00.oscint0
+Running optimization stage 1 on oscint00 .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.key02.key2
+Running optimization stage 1 on key02 .......
+Running optimization stage 2 on oscint00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on contring00 .......
+Running optimization stage 2 on coder00 .......
+Running optimization stage 2 on lect00 .......
+Running optimization stage 2 on contring7seg00 .......
+Running optimization stage 2 on coder7seg00 .......
+@W: CL246 :"C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder7seg00.vhdl":9:2:9:8|Input port bits 31 to 16 of in32cr7(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on key02 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\key0\synwork\layer0.rt.csv
+

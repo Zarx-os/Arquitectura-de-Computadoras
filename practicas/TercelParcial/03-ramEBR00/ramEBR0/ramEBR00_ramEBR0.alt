@@ -1,0 +1,39 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Jun 07 11:00:36 2022 *
+NOTE DESIGN NAME: ramEBR00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk0 : 61 : out *
+NOTE PINS cdiv0[0] : 26 : in *
+NOTE PINS Q0[7] : 38 : out *
+NOTE PINS Q0[6] : 40 : out *
+NOTE PINS Q0[5] : 107 : out *
+NOTE PINS Q0[4] : 106 : out *
+NOTE PINS Q0[3] : 105 : out *
+NOTE PINS Q0[2] : 104 : out *
+NOTE PINS Q0[1] : 100 : out *
+NOTE PINS Q0[0] : 99 : out *
+NOTE PINS outcont0[5] : 95 : out *
+NOTE PINS outcont0[4] : 96 : out *
+NOTE PINS outcont0[3] : 94 : out *
+NOTE PINS outcont0[2] : 93 : out *
+NOTE PINS outcont0[1] : 92 : out *
+NOTE PINS outcont0[0] : 91 : out *
+NOTE PINS inData0[7] : 23 : in *
+NOTE PINS inData0[6] : 24 : in *
+NOTE PINS inData0[5] : 133 : in *
+NOTE PINS inData0[4] : 132 : in *
+NOTE PINS inData0[3] : 22 : in *
+NOTE PINS inData0[2] : 21 : in *
+NOTE PINS inData0[1] : 20 : in *
+NOTE PINS inData0[0] : 19 : in *
+NOTE PINS rw0 : 3 : in *
+NOTE PINS en0 : 1 : in *
+NOTE PINS re0 : 2 : in *
+NOTE PINS cdiv0[4] : 33 : in *
+NOTE PINS cdiv0[3] : 27 : in *
+NOTE PINS cdiv0[2] : 28 : in *
+NOTE PINS cdiv0[1] : 25 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

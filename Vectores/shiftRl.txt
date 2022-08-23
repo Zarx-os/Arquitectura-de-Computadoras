@@ -1,0 +1,9 @@
+0001 Desplazamiento a la izq
+0011 Desplazamiento a la der
+0010 Rotacion a la izq
+0110 Rotacion a la der
+
+0100 Dezplazamiento a la izq con barrel
+1100 Dezplazamiento a la der con barrel
+1000 Rotacion a la izq con barrel
+1001 Rotacion a la der con barrel

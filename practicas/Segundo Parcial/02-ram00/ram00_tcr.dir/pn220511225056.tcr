@@ -1,0 +1,20 @@
+#Start recording tcl command: 5/11/2022 19:56:14
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00; Project name: ram00
+prj_project new -name "ram00" -impl "ram0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/00-osc00-vhdl/div00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/00-osc00-vhdl/osc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/00-osc00-vhdl/oscint00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/00-osc00-vhdl/packageosc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/ram0/source"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/ram0/source/div00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/ram0/source/osc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/ram0/source/oscint00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/ram0/source/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/contring00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/coder00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/memra00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/memram.vhdl"
+prj_src exclude "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/memra00.vhdl"
+prj_src remove "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/memra00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/contRead00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/muxram00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/packageram00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-ram00/ram00.vhdl"
+prj_run Export -impl ram0 -task Jedecgen
+prj_run Export -impl ram0 -task Jedecgen
+prj_run Export -impl ram0 -task Jedecgen
+#Stop recording: 5/11/2022 22:50:56

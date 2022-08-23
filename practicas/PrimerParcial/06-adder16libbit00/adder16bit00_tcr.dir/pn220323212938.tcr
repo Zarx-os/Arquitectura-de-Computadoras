@@ -1,0 +1,10 @@
+#Start recording tcl command: 3/23/2022 20:30:28
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/06-adder16libbit00; Project name: adder16bit00
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/06-adder16libbit00/adder16bit00.ldf"
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/06-adder16libbit00/adder16bit0/adder16bit0.xcf"
+prj_run Export -impl adder16bit0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/06-adder16libbit00/adder16bit0/adder16bit0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 3/23/2022 21:29:38

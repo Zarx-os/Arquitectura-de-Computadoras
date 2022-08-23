@@ -1,0 +1,7 @@
+#Start recording tcl command: 5/11/2022 11:21:13
+#Project Location: G:/Otros ordenadores/Mi PC/Actividades y tareas/Arquitectura/03-Parcial 3/04-proyectosDiamond/02-key02; Project name: key02
+prj_project open "G:/Otros ordenadores/Mi PC/Actividades y tareas/Arquitectura/03-Parcial 3/04-proyectosDiamond/02-key02/key02.ldf"
+prj_src add "G:/Otros ordenadores/Mi PC/Actividades y tareas/Arquitectura/03-Parcial 3/04-proyectosDiamond/02-key02/lect00.vhdl"
+prj_src add "G:/Otros ordenadores/Mi PC/Actividades y tareas/Arquitectura/03-Parcial 3/04-proyectosDiamond/02-key02/contring7seg00.vhdl"
+prj_project save
+#Stop recording: 5/11/2022 11:49:20

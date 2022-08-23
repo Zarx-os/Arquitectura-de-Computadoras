@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\synlog\ramEBR00_ramEBR0_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>div00|oscout_derived_clock</data>
+<data>2.1 MHz</data>
+<data>435.5 MHz</data>
+<data>956.946</data>
+</row>
+<row>
+<data>oscint00|osc_int_inferred_clock</data>
+<data>2.1 MHz</data>
+<data>118.0 MHz</data>
+<data>472.298</data>
+</row>
+</report_table>

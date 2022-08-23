@@ -1,0 +1,1146 @@
+
+Loading design for application trce from file ramebr00_ramebr0.ncd.
+Design name: ramEBR00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
+Tue Jun 07 11:00:31 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o ramEBR00_ramEBR0.twr -gui -msgset C:/Users/Mau/Documents/Arqui/practicas/TercelParcial/03-ramEBR00/promote.xml ramEBR00_ramEBR0.ncd ramEBR00_ramEBR0.prf 
+Design file:     ramebr00_ramebr0.ncd
+Preference file: ramebr00_ramebr0.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "RAEBR00/sclk" 2.080000 MHz ;
+            1240 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[20]  (to RAEBR00/sclk +)
+                   FF                        RAEBR00/D01/sdiv[19]
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_4 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C5C.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[4]  (to RAEBR00/sclk +)
+                   FF                        RAEBR00/D01/sdiv[3]
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_12 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_12:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C3C.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_12:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C3C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[16]  (to RAEBR00/sclk +)
+                   FF                        RAEBR00/D01/sdiv[15]
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_6 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C5A.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_6:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5A.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[8]  (to RAEBR00/sclk +)
+                   FF                        RAEBR00/D01/sdiv[7]
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_10 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C4A.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C4A.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[0]  (to RAEBR00/sclk +)
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_14 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C3A.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_14:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C3A.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[6]  (to RAEBR00/sclk +)
+                   FF                        RAEBR00/D01/sdiv[5]
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_11 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_11:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C3D.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_11:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C3D.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[18]  (to RAEBR00/sclk +)
+                   FF                        RAEBR00/D01/sdiv[17]
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_5 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C5B.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5B.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[10]  (to RAEBR00/sclk +)
+                   FF                        RAEBR00/D01/sdiv[9]
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_9 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_9:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C4B.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_9:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C4B.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[2]  (to RAEBR00/sclk +)
+                   FF                        RAEBR00/D01/sdiv[1]
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_13 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C3B.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C3B.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 469.781ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[20]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[14]  (to RAEBR00/sclk +)
+                   FF                        RAEBR00/D01/sdiv[13]
+
+   Delay:              10.740ns  (24.9% logic, 75.1% route), 6 logic levels.
+
+ Constraint Details:
+
+     10.740ns physical path delay RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_7 meets
+    480.769ns delay constraint less
+      0.000ns skew and
+      0.248ns LSR_SET requirement (totaling 480.521ns) by 469.781ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_4 to RAEBR00/D01/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.409     R22C5C.CLK to      R22C5C.Q1 RAEBR00/D01/SLICE_4 (from RAEBR00/sclk)
+ROUTE         5     1.285      R22C5C.Q1 to      R19C5A.B1 RAEBR00/D01/sdiv[20]
+CTOF_DEL    ---     0.452      R19C5A.B1 to      R19C5A.F1 RAEBR00/D01/SLICE_17
+ROUTE         1     0.610      R19C5A.F1 to      R19C5A.B0 RAEBR00/D01/N_36
+CTOF_DEL    ---     0.452      R19C5A.B0 to      R19C5A.F0 RAEBR00/D01/SLICE_17
+ROUTE         1     1.347      R19C5A.F0 to      R22C5D.B0 RAEBR00/D01/N_10
+CTOF_DEL    ---     0.452      R22C5D.B0 to      R22C5D.F0 RAEBR00/D01/SLICE_27
+ROUTE         1     0.627      R22C5D.F0 to      R21C5C.D0 RAEBR00/D01/N_45
+CTOF_DEL    ---     0.452      R21C5C.D0 to      R21C5C.F0 RAEBR00/D01/SLICE_22
+ROUTE         1     1.766      R21C5C.F0 to     R21C18D.A1 RAEBR00/D01/N_16
+CTOF_DEL    ---     0.452     R21C18D.A1 to     R21C18D.F1 RAEBR00/D01/SLICE_15
+ROUTE        12     2.436     R21C18D.F1 to     R22C4D.LSR RAEBR00/D01/N_6_i (to RAEBR00/sclk)
+                  --------
+                   10.740   (24.9% logic, 75.1% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_4:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C5C.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     3.729        OSC.OSC to     R22C4D.CLK RAEBR00/sclk
+                  --------
+                    3.729   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report:   91.008MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "RAEBR00/sclk" 2.080000   |             |             |
+MHz ;                                   |    2.080 MHz|   91.008 MHz|   6  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: clk0_c   Source: RAEBR00/D01/SLICE_15.Q0   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: RAEBR00/sclk   Source: RAEBR00/D00/OSCInst0.OSC   Loads: 12
+   Covered under: FREQUENCY NET "RAEBR00/sclk" 2.080000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1240 paths, 1 nets, and 186 connections (74.10% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
+Tue Jun 07 11:00:31 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o ramEBR00_ramEBR0.twr -gui -msgset C:/Users/Mau/Documents/Arqui/practicas/TercelParcial/03-ramEBR00/promote.xml ramEBR00_ramEBR0.ncd ramEBR00_ramEBR0.prf 
+Design file:     ramebr00_ramebr0.ncd
+Preference file: ramebr00_ramebr0.prf
+Device,speed:    LCMXO2-7000HE,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY NET "RAEBR00/sclk" 2.080000 MHz ;
+            1240 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[7]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[7]  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_10 to RAEBR00/D01/SLICE_10 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_10 to RAEBR00/D01/SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R22C4A.CLK to      R22C4A.Q0 RAEBR00/D01/SLICE_10 (from RAEBR00/sclk)
+ROUTE         2     0.132      R22C4A.Q0 to      R22C4A.A0 RAEBR00/D01/sdiv[7]
+CTOF_DEL    ---     0.101      R22C4A.A0 to      R22C4A.F0 RAEBR00/D01/SLICE_10
+ROUTE         1     0.000      R22C4A.F0 to     R22C4A.DI0 RAEBR00/D01/un1_sdiv[8] (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4A.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4A.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[11]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[11]  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_8 to RAEBR00/D01/SLICE_8 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_8 to RAEBR00/D01/SLICE_8:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R22C4C.CLK to      R22C4C.Q0 RAEBR00/D01/SLICE_8 (from RAEBR00/sclk)
+ROUTE         3     0.132      R22C4C.Q0 to      R22C4C.A0 RAEBR00/D01/sdiv[11]
+CTOF_DEL    ---     0.101      R22C4C.A0 to      R22C4C.F0 RAEBR00/D01/SLICE_8
+ROUTE         1     0.000      R22C4C.F0 to     R22C4C.DI0 RAEBR00/D01/un1_sdiv[12] (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_8:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4C.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_8:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4C.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/oscout  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/oscout  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_15 to RAEBR00/D01/SLICE_15 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_15 to RAEBR00/D01/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133    R21C18D.CLK to     R21C18D.Q0 RAEBR00/D01/SLICE_15 (from RAEBR00/sclk)
+ROUTE         7     0.132     R21C18D.Q0 to     R21C18D.A0 clk0_c
+CTOF_DEL    ---     0.101     R21C18D.A0 to     R21C18D.F0 RAEBR00/D01/SLICE_15
+ROUTE         1     0.000     R21C18D.F0 to    R21C18D.DI0 RAEBR00/D01/oscout_0 (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to    R21C18D.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_15:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to    R21C18D.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[8]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[8]  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_10 to RAEBR00/D01/SLICE_10 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_10 to RAEBR00/D01/SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R22C4A.CLK to      R22C4A.Q1 RAEBR00/D01/SLICE_10 (from RAEBR00/sclk)
+ROUTE         2     0.132      R22C4A.Q1 to      R22C4A.A1 RAEBR00/D01/sdiv[8]
+CTOF_DEL    ---     0.101      R22C4A.A1 to      R22C4A.F1 RAEBR00/D01/SLICE_10
+ROUTE         1     0.000      R22C4A.F1 to     R22C4A.DI1 RAEBR00/D01/un1_sdiv[9] (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4A.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4A.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[14]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[14]  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_7 to RAEBR00/D01/SLICE_7 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_7 to RAEBR00/D01/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R22C4D.CLK to      R22C4D.Q1 RAEBR00/D01/SLICE_7 (from RAEBR00/sclk)
+ROUTE         5     0.132      R22C4D.Q1 to      R22C4D.A1 RAEBR00/D01/sdiv[14]
+CTOF_DEL    ---     0.101      R22C4D.A1 to      R22C4D.F1 RAEBR00/D01/SLICE_7
+ROUTE         1     0.000      R22C4D.F1 to     R22C4D.DI1 RAEBR00/D01/un1_sdiv[15] (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4D.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4D.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[5]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[5]  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_11 to RAEBR00/D01/SLICE_11 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_11 to RAEBR00/D01/SLICE_11:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R22C3D.CLK to      R22C3D.Q0 RAEBR00/D01/SLICE_11 (from RAEBR00/sclk)
+ROUTE         2     0.132      R22C3D.Q0 to      R22C3D.A0 RAEBR00/D01/sdiv[5]
+CTOF_DEL    ---     0.101      R22C3D.A0 to      R22C3D.F0 RAEBR00/D01/SLICE_11
+ROUTE         1     0.000      R22C3D.F0 to     R22C3D.DI0 RAEBR00/D01/un1_sdiv[6] (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_11:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C3D.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_11:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C3D.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[18]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[18]  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_5 to RAEBR00/D01/SLICE_5 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_5 to RAEBR00/D01/SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R22C5B.CLK to      R22C5B.Q1 RAEBR00/D01/SLICE_5 (from RAEBR00/sclk)
+ROUTE         6     0.132      R22C5B.Q1 to      R22C5B.A1 RAEBR00/D01/sdiv[18]
+CTOF_DEL    ---     0.101      R22C5B.A1 to      R22C5B.F1 RAEBR00/D01/SLICE_5
+ROUTE         1     0.000      R22C5B.F1 to     R22C5B.DI1 RAEBR00/D01/un1_sdiv[19] (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C5B.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_5:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C5B.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[2]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[2]  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_13 to RAEBR00/D01/SLICE_13 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_13 to RAEBR00/D01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R22C3B.CLK to      R22C3B.Q1 RAEBR00/D01/SLICE_13 (from RAEBR00/sclk)
+ROUTE         2     0.132      R22C3B.Q1 to      R22C3B.A1 RAEBR00/D01/sdiv[2]
+CTOF_DEL    ---     0.101      R22C3B.A1 to      R22C3B.F1 RAEBR00/D01/SLICE_13
+ROUTE         1     0.000      R22C3B.F1 to     R22C3B.DI1 RAEBR00/D01/un1_sdiv[3] (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C3B.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_13:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C3B.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[9]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[9]  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_9 to RAEBR00/D01/SLICE_9 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_9 to RAEBR00/D01/SLICE_9:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R22C4B.CLK to      R22C4B.Q0 RAEBR00/D01/SLICE_9 (from RAEBR00/sclk)
+ROUTE         2     0.132      R22C4B.Q0 to      R22C4B.A0 RAEBR00/D01/sdiv[9]
+CTOF_DEL    ---     0.101      R22C4B.A0 to      R22C4B.F0 RAEBR00/D01/SLICE_9
+ROUTE         1     0.000      R22C4B.F0 to     R22C4B.DI0 RAEBR00/D01/un1_sdiv[10] (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_9:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4B.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_9:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4B.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.379ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              RAEBR00/D01/sdiv[13]  (from RAEBR00/sclk +)
+   Destination:    FF         Data in        RAEBR00/D01/sdiv[13]  (to RAEBR00/sclk +)
+
+   Delay:               0.366ns  (63.9% logic, 36.1% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.366ns physical path delay RAEBR00/D01/SLICE_7 to RAEBR00/D01/SLICE_7 meets
+     -0.013ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.013ns) by 0.379ns
+
+ Physical Path Details:
+
+      Data path RAEBR00/D01/SLICE_7 to RAEBR00/D01/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.133     R22C4D.CLK to      R22C4D.Q0 RAEBR00/D01/SLICE_7 (from RAEBR00/sclk)
+ROUTE         3     0.132      R22C4D.Q0 to      R22C4D.A0 RAEBR00/D01/sdiv[13]
+CTOF_DEL    ---     0.101      R22C4D.A0 to      R22C4D.F0 RAEBR00/D01/SLICE_7
+ROUTE         1     0.000      R22C4D.F0 to     R22C4D.DI0 RAEBR00/D01/un1_sdiv[14] (to RAEBR00/sclk)
+                  --------
+                    0.366   (63.9% logic, 36.1% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4D.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path RAEBR00/D00/OSCInst0 to RAEBR00/D01/SLICE_7:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        12     1.425        OSC.OSC to     R22C4D.CLK RAEBR00/sclk
+                  --------
+                    1.425   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "RAEBR00/sclk" 2.080000   |             |             |
+MHz ;                                   |     0.000 ns|     0.379 ns|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: clk0_c   Source: RAEBR00/D01/SLICE_15.Q0   Loads: 7
+   No transfer within this clock domain is found
+
+Clock Domain: RAEBR00/sclk   Source: RAEBR00/D00/OSCInst0.OSC   Loads: 12
+   Covered under: FREQUENCY NET "RAEBR00/sclk" 2.080000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1240 paths, 1 nets, and 186 connections (74.10% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

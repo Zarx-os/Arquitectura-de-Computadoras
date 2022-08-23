@@ -1,0 +1,88 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.12\synpbase
+Hostname:    DESKTOP-H3MRSE6
+Date:        Wed May 25 11:07:35 2022
+Version:     Q-2020.03L-SP1
+
+Arguments:   -product synplify_pro -batch ramEBR00_ramEBR0_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\ramEBR00_ramEBR0.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Wed May 25 11:07:41 2022
+
+Return Code: 0
+Run Time:00h:00m:03s
+log file: "C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\ramEBR00_ramEBR0.srr"
+Running: ramEBR0 in foreground
+
+Running proj_1|ramEBR0
+
+Running Flow: compile (Compile) on proj_1|ramEBR0
+# Wed May 25 11:07:41 2022
+
+Running Flow: compile_flow (Compile Process) on proj_1|ramEBR0
+# Wed May 25 11:07:41 2022
+
+Running: compiler (Compile Input) on proj_1|ramEBR0
+# Wed May 25 11:07:41 2022
+Copied C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\synwork\ramEBR00_ramEBR0_comp.srs to C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\ramEBR00_ramEBR0.srs
+
+compiler completed
+# Wed May 25 11:07:48 2022
+
+Return Code: 0
+Run Time:00h:00m:06s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|ramEBR0
+# Wed May 25 11:07:48 2022
+
+multi_srs_gen completed
+# Wed May 25 11:07:48 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\synwork\ramEBR00_ramEBR0_mult.srs to C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\ramEBR00_ramEBR0.srs
+Copied C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\ramEBR00_ramEBR0.srr to C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\ramEBR00_ramEBR0.srf
+Complete: Compile Process on proj_1|ramEBR0
+
+Running: premap (Premap) on proj_1|ramEBR0
+# Wed May 25 11:07:48 2022
+
+premap completed with warnings
+# Wed May 25 11:07:53 2022
+
+Return Code: 1
+Run Time:00h:00m:05s
+Complete: Compile on proj_1|ramEBR0
+
+Running Flow: map (Map) on proj_1|ramEBR0
+# Wed May 25 11:07:53 2022
+
+Running: fpga_mapper (Map & Optimize) on proj_1|ramEBR0
+# Wed May 25 11:07:53 2022
+Copied C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\synwork\ramEBR00_ramEBR0_m.srm to C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\ramEBR00_ramEBR0.srm
+
+fpga_mapper completed with warnings
+# Wed May 25 11:07:59 2022
+
+Return Code: 1
+Run Time:00h:00m:06s
+Complete: Map on proj_1|ramEBR0
+Copied C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\ramEBR00_ramEBR0.srr to C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\ramEBR00_ramEBR0.srf
+Complete: Logic Synthesis on proj_1|ramEBR0
+TCL script complete: "ramEBR00_ramEBR0_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\Angela\Desktop\Respaldo\OneDrive\Documentos\Arquitectura de Computadoras\07-DiamondProyects\03-ramEBR00\ramEBR0\proj_1.prj
+batch mode default:no

@@ -1,0 +1,9 @@
+@N: CD630 :"C:\Users\Mau\Documents\Arqui\practicas\06-adder16libbit00\adder16bit00.vhdl":6:7:6:18|Synthesizing work.adder16bit00.adder16bit0.
+Post processing for work.adder16bit00.adder16bit0
+Running optimization stage 1 on adder16bit00 .......
+Running optimization stage 2 on adder16bit00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Mau\Documents\Arqui\practicas\06-adder16libbit00\adder16bit0\synwork\layer0.rt.csv
+

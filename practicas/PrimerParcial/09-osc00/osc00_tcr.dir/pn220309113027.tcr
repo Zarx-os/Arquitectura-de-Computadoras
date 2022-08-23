@@ -1,0 +1,14 @@
+#Start recording tcl command: 3/9/2022 10:52:56
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/09-osc00; Project name: osc00
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/09-osc00/osc00.ldf"
+pgr_project close
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/09-osc00/osc0/osc0.xcf"
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/09-osc00/osc0/osc0.xcf"
+prj_run Export -impl osc0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/09-osc00/osc0/osc0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 3/9/2022 11:30:27

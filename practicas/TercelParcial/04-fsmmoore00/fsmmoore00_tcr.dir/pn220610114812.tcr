@@ -1,0 +1,12 @@
+#Start recording tcl command: 6/10/2022 11:41:44
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/TercelParcial/04-fsmmoore00; Project name: fsmmoore00
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/TercelParcial/04-fsmmoore00/fsmmoore00.ldf"
+pgr_project open "C:/Users/Mau/Documents/Arqui/practicas/TercelParcial/04-fsmmoore00/fsmmoore0/fsmmoore0.xcf"
+pgr_program run
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program run
+pgr_project save "C:/Users/Mau/Documents/Arqui/practicas/TercelParcial/04-fsmmoore00/fsmmoore0/fsmmoore0.xcf"
+prj_project close
+#Stop recording: 6/10/2022 11:48:12

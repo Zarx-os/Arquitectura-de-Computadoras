@@ -1,0 +1,10 @@
+#Start recording tcl command: 5/31/2022 08:38:18
+#Project Location: C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00; Project name: fsmmoore00
+prj_project open "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore00.ldf"
+prj_src add "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/packagefsm00.vhdl"
+prj_src add "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore00.vhdl"
+prj_run Export -impl fsmmoore0 -task Jedecgen
+prj_run Export -impl fsmmoore0 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 5/31/2022 09:57:13

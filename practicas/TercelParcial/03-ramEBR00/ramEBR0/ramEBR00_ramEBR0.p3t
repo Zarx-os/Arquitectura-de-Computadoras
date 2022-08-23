@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "ramEBR00_ramEBR0.log"
+-o "ramEBR00_ramEBR0.csv"
+-pr "ramEBR00_ramEBR0.prf"

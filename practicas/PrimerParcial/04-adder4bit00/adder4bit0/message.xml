@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD645 :&quot;C:\Users\Mau\Documents\Arqui\practicas\04-adder4bit00\adder4bit00.vhdl&quot;:2:8:2:14|Ignoring undefined library lattice</Dynamic>
+            <Navigation>CD645</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\04-adder4bit00\adder4bit00.vhdl</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Ignoring undefined library lattice</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD642 :&quot;C:\Users\Mau\Documents\Arqui\practicas\04-adder4bit00\adder4bit00.vhdl&quot;:5:15:5:15|Ignoring use clause - library lattice not found ...</Dynamic>
+            <Navigation>CD642</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\04-adder4bit00\adder4bit00.vhdl</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Ignoring use clause - library lattice not found ...</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.12/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/Mau/Documents/Arqui/practicas/09-osc00/oscint00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/09-osc00/div00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/09-osc00/packageosc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/09-osc00/osc00.vhdl" 

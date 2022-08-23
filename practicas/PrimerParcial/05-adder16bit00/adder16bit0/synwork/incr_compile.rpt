@@ -1,0 +1,76 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-EM0A4AG
+
+Implementation : adder16bit0
+Synopsys HDL compiler and linker, Version comp202103synp2, Build 093R, Built Aug 10 2021 09:15:36, @
+
+Modified Files: 20
+FID:  path (prevtimestamp, timestamp)
+0        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\adder4bit00.vhdl (N/A, 2022-02-28 20:37:54)
+1        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\and00.vhdl (N/A, 2022-02-28 14:17:42)
+2        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\fa00.vhdl (N/A, 2022-02-18 11:06:45)
+3        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\ha00.vhdl (N/A, 2022-02-17 20:09:40)
+4        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\or00.vhdl (N/A, 2022-02-17 20:21:46)
+5        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\packageadder4bit00.vhdl (N/A, 2022-02-28 14:57:05)
+6        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\packagefa00.vhdl (N/A, 2022-02-17 20:24:05)
+7        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\packageha00.vhdl (N/A, 2022-02-17 20:24:05)
+8        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\xnor00.vhdl (N/A, 2022-02-28 14:17:42)
+9        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\xor00.vhdl (N/A, 2022-02-17 19:52:11)
+10       C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (N/A, 2018-11-15 00:32:12)
+11       C:\lscc\diamond\3.12\synpbase\lib\vhd\arith.vhd (N/A, 2021-08-10 10:07:02)
+12       C:\lscc\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (N/A, 2021-08-10 10:07:02)
+13       C:\lscc\diamond\3.12\synpbase\lib\vhd\location.map (N/A, 2021-08-10 10:07:02)
+14       C:\lscc\diamond\3.12\synpbase\lib\vhd\numeric.vhd (N/A, 2021-08-10 10:07:02)
+15       C:\lscc\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (N/A, 2021-08-10 10:07:02)
+16       C:\lscc\diamond\3.12\synpbase\lib\vhd\std.vhd (N/A, 2021-08-10 10:07:02)
+17       C:\lscc\diamond\3.12\synpbase\lib\vhd\std1164.vhd (N/A, 2021-08-10 10:07:02)
+18       C:\lscc\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (N/A, 2021-08-10 10:07:02)
+19       C:\lscc\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (N/A, 2021-08-10 10:07:02)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 7
+MID:  lib.cell.view
+0        work.adder4bit00.adder4bit0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\adder4bit00.vhdl (N/A, 2022-02-28 20:37:54) <-- (architecture and entity definition)
+2        work.and00.and0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\adder4bit00.vhdl (N/A, 2022-02-28 20:37:54) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\and00.vhdl (N/A, 2022-02-28 14:17:42) <-- (architecture and entity definition)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\fa00.vhdl (N/A, 2022-02-18 11:06:45) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\ha00.vhdl (N/A, 2022-02-17 20:09:40) <-- (may instantiate this module)
+4        work.fa00.fa0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\adder4bit00.vhdl (N/A, 2022-02-28 20:37:54) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\fa00.vhdl (N/A, 2022-02-18 11:06:45) <-- (architecture and entity definition)
+6        work.ha00.ha0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\adder4bit00.vhdl (N/A, 2022-02-28 20:37:54) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\fa00.vhdl (N/A, 2022-02-18 11:06:45) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\ha00.vhdl (N/A, 2022-02-17 20:09:40) <-- (architecture and entity definition)
+8        work.or00.or0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\adder4bit00.vhdl (N/A, 2022-02-28 20:37:54) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\fa00.vhdl (N/A, 2022-02-18 11:06:45) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\or00.vhdl (N/A, 2022-02-17 20:21:46) <-- (architecture and entity definition)
+11       work.xnor00.xnor0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\adder4bit00.vhdl (N/A, 2022-02-28 20:37:54) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\xnor00.vhdl (N/A, 2022-02-28 14:17:42) <-- (architecture and entity definition)
+13       work.xor00.xor0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\adder4bit00.vhdl (N/A, 2022-02-28 20:37:54) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\fa00.vhdl (N/A, 2022-02-18 11:06:45) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\ha00.vhdl (N/A, 2022-02-17 20:09:40) <-- (may instantiate this module)
+                        C:\Users\Mau\Documents\Arqui\practicas\05-adder16bit00\adder16bit0\source\xor00.vhdl (N/A, 2022-02-17 19:52:11) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

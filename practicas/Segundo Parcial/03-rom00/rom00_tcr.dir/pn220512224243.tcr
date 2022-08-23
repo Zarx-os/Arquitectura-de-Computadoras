@@ -1,0 +1,13 @@
+#Start recording tcl command: 5/12/2022 21:44:55
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00; Project name: rom00
+prj_project new -name "rom00" -impl "rom0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/00-osc00-vhdl/div00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/00-osc00-vhdl/osc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/00-osc00-vhdl/oscint00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/00-osc00-vhdl/packageosc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00/rom0/source"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00/rom0/source/div00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00/rom0/source/osc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00/rom0/source/oscint00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00/rom0/source/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00/contRead.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00/memrom.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00/packagerom00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/03-rom00/rom00.vhdl"
+prj_run Export -impl rom0 -task Jedecgen
+prj_run Export -impl rom0 -task Jedecgen
+#Stop recording: 5/12/2022 22:42:43

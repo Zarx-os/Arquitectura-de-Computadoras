@@ -1,0 +1,12 @@
+#Start recording tcl command: 3/15/2022 14:02:52
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/11-shiftLR00; Project name: shiftRL00
+prj_project new -name "shiftRL00" -impl "shiftRL0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Mau/Documents/Arqui/practicas/10-osc00-vhdl/div00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/10-osc00-vhdl/osc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/10-osc00-vhdl/oscint00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/10-osc00-vhdl/packageosc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/11-shiftLR00/shiftRL0/source"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/11-shiftLR00/shiftRL0/source/div00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/11-shiftLR00/shiftRL0/source/osc00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/11-shiftLR00/shiftRL0/source/oscint00.vhdl" "C:/Users/Mau/Documents/Arqui/practicas/11-shiftLR00/shiftRL0/source/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/11-shiftLR00/shiftRL.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/11-shiftLR00/packageshiftRL00.vhdl"
+prj_src add "C:/Users/Mau/Documents/Arqui/practicas/11-shiftLR00/shiftRL00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 3/15/2022 14:15:02

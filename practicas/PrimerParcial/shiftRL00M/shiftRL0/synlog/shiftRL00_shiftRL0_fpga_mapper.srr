@@ -1,0 +1,381 @@
+# Thu Mar 17 23:34:20 2022
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-6SLHROD0
+
+Implementation : shiftRL0
+Synopsys Lattice Technology Mapper, Version map202003lat, Build 172R, Built Nov  2 2020 09:31:45, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 168MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 176MB peak: 176MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		   473.09ns		  65 /        34
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:02s; Memory used current: 145MB peak: 181MB)
+
+Writing Analyst data base C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\synwork\shiftRL00_shiftRL0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\ftr_e\Documents\3CM13-ADC\06-DimondProjects\shiftRL00M\shiftRL0\shiftRL00_shiftRL0.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 184MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 185MB)
+
+@W: MT420 |Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net SRL00.D00.sclk.
+@N: MT615 |Found clock div00|oscout_derived_clock with period 480.77ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Mar 17 23:34:28 2022
+#
+
+
+Top view:               shiftRL00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 472.362
+
+                                    Requested     Estimated     Requested     Estimated                 Clock                                              Clock              
+Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type                                               Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+div00|oscout_derived_clock          2.1 MHz       317.6 MHz     480.769       3.148         955.242     derived (from oscint00|osc_int_inferred_clock)     Inferred_clkgroup_0
+oscint00|osc_int_inferred_clock     2.1 MHz       118.9 MHz     480.769       8.407         472.362     inferred                                           Inferred_clkgroup_0
+==============================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+oscint00|osc_int_inferred_clock  oscint00|osc_int_inferred_clock  |  480.769     472.362  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|oscout_derived_clock       div00|oscout_derived_clock       |  480.769     955.242  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div00|oscout_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                                           Arrival            
+Instance              Reference                      Type        Pin     Net             Time        Slack  
+                      Clock                                                                                 
+------------------------------------------------------------------------------------------------------------
+SRL01.scontrol[0]     div00|oscout_derived_clock     FD1S3IX     Q       scontrol[0]     1.148       955.242
+SRL01.scontrol[1]     div00|oscout_derived_clock     FD1S3IX     Q       scontrol[1]     1.148       955.385
+SRL01.scontrol[2]     div00|oscout_derived_clock     FD1S3IX     Q       scontrol[2]     1.108       955.425
+SRL01.scontrol[3]     div00|oscout_derived_clock     FD1S3IX     Q       scontrol[3]     1.044       957.372
+SRL01.outs[0]         div00|oscout_derived_clock     FD1P3AX     Q       out0_c[0]       1.148       958.846
+SRL01.outs[6]         div00|oscout_derived_clock     FD1P3AX     Q       out0_c[6]       1.148       958.846
+SRL01.outs[1]         div00|oscout_derived_clock     FD1P3AX     Q       out0_c[1]       1.108       958.886
+SRL01.outs[2]         div00|oscout_derived_clock     FD1P3AX     Q       out0_c[2]       1.108       958.886
+SRL01.outs[3]         div00|oscout_derived_clock     FD1P3AX     Q       out0_c[3]       1.108       958.886
+SRL01.outs[4]         div00|oscout_derived_clock     FD1P3AX     Q       out0_c[4]       1.108       958.886
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                               Required            
+Instance              Reference                      Type        Pin     Net                 Time         Slack  
+                      Clock                                                                                      
+-----------------------------------------------------------------------------------------------------------------
+SRL01.outs[0]         div00|oscout_derived_clock     FD1P3AX     SP      un1_outs66_i        961.067      955.242
+SRL01.outs[1]         div00|oscout_derived_clock     FD1P3AX     SP      un1_outs66_i        961.067      955.242
+SRL01.outs[2]         div00|oscout_derived_clock     FD1P3AX     SP      un1_outs66_i        961.067      955.242
+SRL01.outs[3]         div00|oscout_derived_clock     FD1P3AX     SP      un1_outs66_i        961.067      955.242
+SRL01.outs[4]         div00|oscout_derived_clock     FD1P3AX     SP      un1_outs66_i        961.067      955.242
+SRL01.outs[5]         div00|oscout_derived_clock     FD1P3AX     SP      un1_outs66_i        961.067      955.242
+SRL01.outs[6]         div00|oscout_derived_clock     FD1P3AX     SP      un1_outs66_i        961.067      955.242
+SRL01.outs[7]         div00|oscout_derived_clock     FD1P3AX     SP      un1_outs66_i        961.067      955.242
+SRL01.scontrol[2]     div00|oscout_derived_clock     FD1S3IX     D       un1_scontrol[3]     961.627      955.361
+SRL01.scontrol[3]     div00|oscout_derived_clock     FD1S3IX     D       un1_scontrol[4]     961.627      955.361
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      961.538
+    - Setup time:                            0.472
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         961.067
+
+    - Propagation time:                      5.825
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 955.242
+
+    Number of logic level(s):                4
+    Starting point:                          SRL01.scontrol[0] / Q
+    Ending point:                            SRL01.outs[0] / SP
+    The start point is clocked by            div00|oscout_derived_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    The end   point is clocked by            div00|oscout_derived_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div00|oscout_derived_clock to c:div00|oscout_derived_clock)
+
+Instance / Net                                    Pin      Pin               Arrival     No. of    
+Name                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------
+SRL01.scontrol[0]                    FD1S3IX      Q        Out     1.148     1.148 r     -         
+scontrol[0]                          Net          -        -       -         -           4         
+SRL01.pshiftRL\.un39_sel_cry_0_0     CCU2D        B1       In      0.000     1.148 r     -         
+SRL01.pshiftRL\.un39_sel_cry_0_0     CCU2D        COUT     Out     1.544     2.692 r     -         
+un39_sel_cry_0                       Net          -        -       -         -           1         
+SRL01.pshiftRL\.un39_sel_cry_1_0     CCU2D        CIN      In      0.000     2.692 r     -         
+SRL01.pshiftRL\.un39_sel_cry_1_0     CCU2D        COUT     Out     0.143     2.835 r     -         
+un39_sel_cry_2                       Net          -        -       -         -           1         
+SRL01.pshiftRL\.un39_sel_cry_3_0     CCU2D        CIN      In      0.000     2.835 r     -         
+SRL01.pshiftRL\.un39_sel_cry_3_0     CCU2D        S1       Out     1.725     4.560 r     -         
+un39_sel_i                           Net          -        -       -         -           4         
+SRL01.un1_outs66_0_1_RNIEE9E1        ORCALUT4     B        In      0.000     4.560 r     -         
+SRL01.un1_outs66_0_1_RNIEE9E1        ORCALUT4     Z        Out     1.265     5.825 f     -         
+un1_outs66_i                         Net          -        -       -         -           8         
+SRL01.outs[0]                        FD1P3AX      SP       In      0.000     5.825 f     -         
+===================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: oscint00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                             Arrival            
+Instance               Reference                           Type        Pin     Net          Time        Slack  
+                       Clock                                                                                   
+---------------------------------------------------------------------------------------------------------------
+SRL00.D01.sdiv[19]     oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[19]     1.188       472.362
+SRL00.D01.sdiv[16]     oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[16]     1.180       472.370
+SRL00.D01.sdiv[20]     oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[20]     1.180       473.179
+SRL00.D01.sdiv[18]     oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[18]     1.148       473.211
+SRL00.D01.sdiv[6]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[6]      1.108       473.315
+SRL00.D01.sdiv[7]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]      1.108       473.315
+SRL00.D01.sdiv[8]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]      1.108       473.315
+SRL00.D01.sdiv[9]      oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]      1.108       473.315
+SRL00.D01.sdiv[11]     oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[11]     1.044       473.315
+SRL00.D01.sdiv[12]     oscint00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[12]     1.044       473.315
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                          Required            
+Instance              Reference                           Type        Pin     Net       Time         Slack  
+                      Clock                                                                                 
+------------------------------------------------------------------------------------------------------------
+SRL00.D01.sdiv[0]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+SRL00.D01.sdiv[1]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+SRL00.D01.sdiv[2]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+SRL00.D01.sdiv[3]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+SRL00.D01.sdiv[4]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+SRL00.D01.sdiv[5]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+SRL00.D01.sdiv[6]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+SRL00.D01.sdiv[7]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+SRL00.D01.sdiv[8]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+SRL00.D01.sdiv[9]     oscint00|osc_int_inferred_clock     FD1S3IX     CD      N_6_i     479.966      472.362
+============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.803
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         479.966
+
+    - Propagation time:                      7.605
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     472.362
+
+    Number of logic level(s):                6
+    Starting point:                          SRL00.D01.sdiv[19] / Q
+    Ending point:                            SRL00.D01.sdiv[0] / CD
+    The start point is clocked by            oscint00|osc_int_inferred_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+    The end   point is clocked by            oscint00|osc_int_inferred_clock [rising] (rise=0.000 fall=240.385 period=480.769) on pin CK
+
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+SRL00.D01.sdiv[19]                                 FD1S3IX      Q        Out     1.188     1.188 r     -         
+sdiv[19]                                           Net          -        -       -         -           6         
+SRL00.D01.un1_oscout_0_sqmuxa_i_a2_16              ORCALUT4     A        In      0.000     1.188 r     -         
+SRL00.D01.un1_oscout_0_sqmuxa_i_a2_16              ORCALUT4     Z        Out     1.017     2.205 f     -         
+un1_oscout_0_sqmuxa_i_a2_16                        Net          -        -       -         -           1         
+SRL00.D01.un1_oscout_0_sqmuxa_i_a2_1               ORCALUT4     B        In      0.000     2.205 f     -         
+SRL00.D01.un1_oscout_0_sqmuxa_i_a2_1               ORCALUT4     Z        Out     1.017     3.221 f     -         
+un1_oscout_0_sqmuxa_i_a2_1                         Net          -        -       -         -           1         
+SRL00.D01.un1_oscout_0_sqmuxa_i_o3_1               ORCALUT4     B        In      0.000     3.221 f     -         
+SRL00.D01.un1_oscout_0_sqmuxa_i_o3_1               ORCALUT4     Z        Out     1.017     4.238 f     -         
+N_11                                               Net          -        -       -         -           1         
+SRL00.D01.un1_oscout_0_sqmuxa_i_a12_1              ORCALUT4     A        In      0.000     4.238 f     -         
+SRL00.D01.un1_oscout_0_sqmuxa_i_a12_1              ORCALUT4     Z        Out     1.017     5.255 f     -         
+un1_oscout_0_sqmuxa_i_a12_1                        Net          -        -       -         -           1         
+SRL00.D01.un1_oscout_0_sqmuxa_i_5                  ORCALUT4     A        In      0.000     5.255 f     -         
+SRL00.D01.un1_oscout_0_sqmuxa_i_5                  ORCALUT4     Z        Out     1.017     6.272 f     -         
+un1_oscout_0_sqmuxa_i_5                            Net          -        -       -         -           1         
+SRL00.D01.un1_oscout_0_sqmuxa_i_a12_3_RNITMG03     ORCALUT4     D        In      0.000     6.272 f     -         
+SRL00.D01.un1_oscout_0_sqmuxa_i_a12_3_RNITMG03     ORCALUT4     Z        Out     1.333     7.605 r     -         
+N_6_i                                              Net          -        -       -         -           22        
+SRL00.D01.sdiv[0]                                  FD1S3IX      CD       In      0.000     7.605 r     -         
+=================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:03s; Memory used current: 184MB peak: 185MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 184MB peak: 185MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 34 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       31
+
+
+Details:
+CCU2D:          14
+FD1P3AX:        8
+FD1S3AX:        1
+FD1S3IX:        25
+GSR:            1
+IB:             22
+OB:             9
+ORCALUT4:       64
+OSCH:           1
+PUR:            1
+VHI:            3
+VLO:            4
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 65MB peak: 185MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:04s cputime
+# Thu Mar 17 23:34:29 2022
+
+###########################################################]

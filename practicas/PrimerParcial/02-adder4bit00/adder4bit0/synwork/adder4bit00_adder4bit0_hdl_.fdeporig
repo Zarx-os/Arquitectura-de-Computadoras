@@ -1,0 +1,76 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|adder4bit00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\adder4bit0\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1628608842
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1628608022
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1628608022
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1628608022
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1628608022
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1628608022
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1628608022
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1628608022
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1628608022
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1628608022
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542263532
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\xor00.vhdl":1645149131
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\and00.vhdl":1646079462
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\packageha00.vhdl":1645151045
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\ha00.vhdl":1645150180
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\or00.vhdl":1645150906
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\packagefa00.vhdl":1645151045
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\fa00.vhdl":1645204005
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\adder4bit00.vhdl":1646085571
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\packageadder4bit00.vhdl":1646081825
+#CUR:"C:\\Users\\Mau\\Documents\\Arqui\\practicas\\02-adder4bit00\\xnor00.vhdl":1646079462
+0 "C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\xor00.vhdl" vhdl
+2 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\and00.vhdl" vhdl
+3 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\packageha00.vhdl" vhdl
+4 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\ha00.vhdl" vhdl
+5 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\or00.vhdl" vhdl
+6 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\packagefa00.vhdl" vhdl
+7 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\fa00.vhdl" vhdl
+8 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\adder4bit00.vhdl" vhdl
+9 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\packageadder4bit00.vhdl" vhdl
+10 "C:\Users\Mau\Documents\Arqui\practicas\02-adder4bit00\xnor00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 1 2 3 
+5 -1
+6 -1
+7 4 5 6 
+8 1 7 2 10 9 
+9 -1
+10 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 8 4 
+2 8 4 
+3 4 
+4 7 
+5 7 
+6 7 
+7 8 
+8 -1
+9 8 
+10 8 
+
+# Design Unit to File Association
+arch work xor00 xor0 1
+module work xor00 1
+arch work and00 and0 2
+module work and00 2
+arch work ha00 ha0 4
+module work ha00 4
+arch work or00 or0 5
+module work or00 5
+arch work fa00 fa0 7
+module work fa00 7
+arch work adder4bit00 adder4bit0 8
+module work adder4bit00 8
+arch work xnor00 xnor0 10
+module work xnor00 10

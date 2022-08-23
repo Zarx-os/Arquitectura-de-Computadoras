@@ -1,0 +1,6 @@
+#Start recording tcl command: 5/18/2022 11:24:16
+#Project Location: C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-key02; Project name: key02
+prj_project open "C:/Users/Mau/Documents/Arqui/practicas/Segundo Parcial/02-key02/key02.ldf"
+pgr_project close
+prj_project close
+#Stop recording: 5/18/2022 11:38:28

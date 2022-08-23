@@ -1,0 +1,12 @@
+#Start recording tcl command: 5/29/2022 13:38:40
+#Project Location: C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00; Project name: fsmmoore00
+prj_project new -name "fsmmoore00" -impl "fsmmoore0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/osc00-vhdl/div00.vhdl" "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/osc00-vhdl/osc00.vhdl" "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/osc00-vhdl/oscint00.vhdl" "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/osc00-vhdl/packageosc00.vhdl" "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/source"
+prj_src add "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/source/div00.vhdl" "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/source/osc00.vhdl" "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/source/oscint00.vhdl" "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsmmoore0/source/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/contRead00.vhdl"
+prj_src add "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/memrom00.vhdl"
+prj_src add "C:/Users/Yonathan macu/SkyDrive/Fotos/Arquitectura de Computadoras/Practicas/TercerParcial/fsmmoore00/fsm00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 5/29/2022 15:04:00

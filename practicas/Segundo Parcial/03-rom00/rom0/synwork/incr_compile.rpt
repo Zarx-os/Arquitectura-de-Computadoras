@@ -1,0 +1,61 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: UNKNOWN
+
+Implementation : rom0
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+3        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom00.vhdl (2022-05-13 10:48:48, 2022-05-13 10:51:56)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 6
+MID:  lib.cell.view
+0        work.contread00.contread0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom00.vhdl (2022-05-13 10:48:48, 2022-05-13 10:51:56) <-- (may instantiate this module)
+2        work.div00.div0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom00.vhdl (2022-05-13 10:48:48, 2022-05-13 10:51:56) <-- (may instantiate this module)
+4        work.memrom00.memrom0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom00.vhdl (2022-05-13 10:48:48, 2022-05-13 10:51:56) <-- (may instantiate this module)
+6        work.osc00.osc0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom00.vhdl (2022-05-13 10:48:48, 2022-05-13 10:51:56) <-- (may instantiate this module)
+8        work.oscint00.oscint0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom00.vhdl (2022-05-13 10:48:48, 2022-05-13 10:51:56) <-- (may instantiate this module)
+10       work.rom00.rom0 may have changed because the following files changed:
+                        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom00.vhdl (2022-05-13 10:48:48, 2022-05-13 10:51:56) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 18
+FID:  path (timestamp)
+0        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\contRead.vhdl (2022-05-13 10:45:40)
+1        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\memrom.vhdl (2022-05-12 22:13:53)
+2        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\packagerom00.vhdl (2022-05-12 22:17:56)
+4        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom0\source\div00.vhdl (2022-04-15 04:42:32)
+5        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom0\source\osc00.vhdl (2022-05-04 00:21:55)
+6        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom0\source\oscint00.vhdl (2022-05-04 00:20:55)
+7        C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\03-rom00\rom0\source\packageosc00.vhdl (2022-05-04 00:20:55)
+8        C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-14 23:32:12)
+9        C:\lscc\diamond\3.12\synpbase\lib\cpld\lattice.vhd (2020-10-29 09:20:44)
+10       C:\lscc\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 09:23:10)
+11       C:\lscc\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 09:23:10)
+12       C:\lscc\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 16:26:20)
+13       C:\lscc\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 09:23:10)
+14       C:\lscc\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 09:23:10)
+15       C:\lscc\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 09:23:10)
+16       C:\lscc\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 09:23:10)
+17       C:\lscc\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 09:23:10)
+18       C:\lscc\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 09:23:10)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

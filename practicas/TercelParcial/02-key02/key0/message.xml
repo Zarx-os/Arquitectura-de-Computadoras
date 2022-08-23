@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>K0203.plec.out32lc15</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>K0200/D00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>K0200/D00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD277 :&quot;C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\packagekey0200.vhdl&quot;:30:2:30:9|Port direction mismatch between component and entity</Dynamic>
+            <Navigation>CD277</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\packagekey0200.vhdl</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Port direction mismatch between component and entity</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl&quot;:22:7:22:13|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl&quot;:25:7:25:17|Referenced variable scountrollc is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Referenced variable scountrollc is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL113 :&quot;C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl&quot;:25:2:25:5|Feedback mux created for signal out32lc[31:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Dynamic>
+            <Navigation>CL113</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\lect00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Feedback mux created for signal out32lc[31:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG296 :&quot;C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl&quot;:22:9:22:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Dynamic>
+            <Navigation>CG296</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG290 :&quot;C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl&quot;:29:7:29:9|Referenced variable enc is not in sensitivity list.</Dynamic>
+            <Navigation>CG290</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder00.vhdl</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Referenced variable enc is not in sensitivity list.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD326 :&quot;C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\oscint00.vhdl&quot;:24:0:24:7|Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
+            <Navigation>CD326</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\00-osc00-vhdl\oscint00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Port sedstdby of entity work.osch is unconnected. If a port needs to remain unconnected, use the keyword open.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder7seg00.vhdl&quot;:9:2:9:8|Input port bits 31 to 16 of in32cr7(31 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\Mau\Documents\Arqui\practicas\Segundo Parcial\02-key02\coder7seg00.vhdl</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Input port bits 31 to 16 of in32cr7(31 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\00-osc00-vhdl\div00.vhdl&quot;:21:2:21:3|Found inferred clock oscint00|osc_int_inferred_clock which controls 22 sequential elements including K0200.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\00-osc00-vhdl\div00.vhdl</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock oscint00|osc_int_inferred_clock which controls 22 sequential elements including K0200.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl&quot;:104:5:104:13|ROM sout7seg3[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>ROM sout7seg3[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl&quot;:85:5:85:13|ROM sout7seg2[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl</Navigation>
+            <Navigation>85</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>85</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>ROM sout7seg2[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl&quot;:66:5:66:13|ROM sout7seg1[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>ROM sout7seg1[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl&quot;:47:5:47:13|ROM sout7seg0[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl</Navigation>
+            <Navigation>47</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>47</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>ROM sout7seg0[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl&quot;:104:5:104:13|ROM sout7seg3[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>ROM sout7seg3[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl&quot;:85:5:85:13|ROM sout7seg2[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl</Navigation>
+            <Navigation>85</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>85</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>ROM sout7seg2[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl&quot;:66:5:66:13|ROM sout7seg1[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>ROM sout7seg1[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl&quot;:47:5:47:13|ROM sout7seg0[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\coder7seg00.vhdl</Navigation>
+            <Navigation>47</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>47</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>ROM sout7seg0[6:0] (in view: work.coder7seg00(coder7seg0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\contring7seg00.vhdl&quot;:18:2:18:3|Removing sequential instance K0204.outr7[3:0] because it is equivalent to instance K0201.outr[3:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\mau\documents\arqui\practicas\segundo parcial\02-key02\contring7seg00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing sequential instance K0204.outr7[3:0] because it is equivalent to instance K0201.outr[3:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net K0200.D00.sclk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock oscint00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net K0200.D00.sclk.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>
